@@ -1,0 +1,9 @@
+Package: com.anthopak.powercutsexampleactions
+Name: PowercutsExampleActions
+Depends: mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Example actions for Powercuts
+Maintainer: AnthoPak
+Author: AnthoPak
+Section: Tweaks
