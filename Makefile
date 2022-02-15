@@ -3,7 +3,7 @@ ARCHS = arm64 arm64e
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = PowercutsExampleAction
+TWEAK_NAME = PowercutsExampleActions
 PowercutsExampleAction_FILES = $(wildcard Actions/*.xm)
 PowercutsExampleAction_LIBRARIES = powercuts
 
