@@ -15,7 +15,8 @@
 }
 //Provide the app related to your action. You can either pass the bundle id of an existing app installed on the device, or pass the bundle id of a fake app you've manually registered in PowercutsManager.
 -(NSString*) associatedAppBundleIdForIdentifier:(NSString*)identifier {
-    return @"com.anthopak.exampleTweak";
+    // return @"com.apple.MobileSMS"; //an app installed on user device
+    return @"com.anthopak.exampleTweak"; //a fake app registered to PowercutsManager
 }
 @end
 
