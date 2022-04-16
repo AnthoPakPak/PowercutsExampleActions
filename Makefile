@@ -4,8 +4,8 @@ ARCHS = arm64 arm64e
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = PowercutsExampleActions
-PowercutsExampleAction_FILES = $(wildcard Actions/*.xm)
-PowercutsExampleAction_LIBRARIES = powercuts
+PowercutsExampleActions_FILES = $(wildcard Actions/*.xm)
+PowercutsExampleActions_LIBRARIES = powercuts
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
