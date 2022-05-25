@@ -43,6 +43,9 @@
         }
     ];
 }
+-(NSString*) parameterSummaryForIdentifier:(NSString*)identifier {
+    return @"Complex example action with embedded param: ${requiredParameterExample}";
+}
 -(NSDictionary*) outputDefinitionForIdentifier:(NSString*)identifier {
     return @{
         @"type" : @"text",

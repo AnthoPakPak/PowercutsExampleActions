@@ -34,6 +34,18 @@
             @"label" : @"Example enum",
             @"defaultValue" : @"Value 1",
             @"items" : @[@"Value 1", @"Value 2", @"Value 3"]
+        },
+        @{
+            @"type" : @"number",
+            @"key" : @"exampleNumber",
+            @"allowsDecimalNumbers" : @(YES),
+            @"allowsNegativeNumbers" : @(NO),
+            @"label" : @"Example number (conditional)",
+            @"defaultValue" : @(0),
+            @"condition" : @{ // only when key = value (when exampleEnum enum's value is "Value 1")
+                @"key" : @"exampleEnum",
+                @"value" : @"Value 1"
+            }
         }
     ];
 }
